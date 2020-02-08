@@ -134,7 +134,7 @@ let g:spacevim_home_files_number        = 6
 " >
 "   let g:spacevim_enable_guicolors = 1
 " <
-let g:spacevim_enable_guicolors = 0
+let g:spacevim_enable_guicolors = 1
 
 ""
 " @section enable_googlesuggest, options-enable_googlesuggest
@@ -411,7 +411,7 @@ let g:spacevim_enable_cursorline       = 1
 "
 " See more details in: http://spacevim.org/documentation/#statusline
 "
-let g:spacevim_statusline_separator = 'nil'
+let g:spacevim_statusline_separator = 'arrow'
 ""
 " @section statusline_iseparator, options-statusline_iseparator
 " @parentsection options
@@ -443,7 +443,7 @@ let g:spacevim_statusline_separator = 'nil'
 "
 " See more details in: http://spacevim.org/documentation/#statusline
 "
-let g:spacevim_statusline_iseparator = 'nil'
+let g:spacevim_statusline_iseparator = 'arrow'
 
 ""
 " @section enable_statusline_bfpath, options-enable_statusline_bfpath
@@ -555,8 +555,17 @@ let g:spacevim_enable_statusline_mode     = 0
 "     \ ]
 " <
 "
-let g:spacevim_custom_color_palette = []
-
+let g:spacevim_custom_color_palette = [
+     \ ['#282828', '#b5bd68', 246, 235],
+     \ ['#303030', '#9e9e9e', 239, 246],
+     \ ['#303030', '#5f5f5f', 237, 246],
+     \ ['#5f5f87', 241],
+     \ ['#282828', '#81a2be', 235, 109],
+     \ ['#282828', '#de935f', 235, 208],
+     \ ['#282828', '#8ec07c', 235, 108],
+     \ ['#282828', '#689d6a', 235, 72],
+     \ ['#282828', '#8f3f71', 235, 132],
+     \ ]
 ""
 " @section enable_cursorcolumn, options-enable_cursorcolumn
 " @parentsection options
